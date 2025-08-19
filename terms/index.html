@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terms of Use — Discord Bank Simulator Bot</title>
+<meta name="description" content="Terms of Use for a Discord bot that simulates banking operations. 18+, or 16–17 with parental consent." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<style>
+    :root {
+        --radius: 14px;
+    }
+
+    html,
+    body {
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    }
+
+    .card {
+        border-radius: var(--radius);
+    }
+
+    .hero.is-gradient {
+        background: linear-gradient(135deg, #00d1b2 0%, #485fc7 100%);
+    }
+
+    .container.narrow {
+        max-width: 920px;
+    }
+
+    .content h2 {
+        scroll-margin-top: 6rem;
+    }
+
+    .footer {
+        border-top: 1px solid rgba(0, 0, 0, .06);
+    }
+
+    .notice {
+        background: #fffbea;
+        border: 1px solid #ffe08a;
+        border-radius: var(--radius);
+        padding: 1rem;
+    }
+</style>
+</head>
+
+<body>
+    <section class="hero is-gradient is-medium">
+        <div class="hero-body">
+            <div class="container narrow">
+                <h1 class="title has-text-white">Terms of Use</h1>
+                <p class="subtitle has-text-white">Finex economy bot & Discord Bank Simulator</p>
+                <p><a class="button is-light is-outlined" href="#effective-date">Effective Date</a> <a
+                        class="button is-light is-outlined" href="/privacy">View Privacy Policy</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section" id="effective-date">
+        <div class="container narrow">
+            <div class="card">
+                <div class="card-content content">
+                    <p><strong>Effective Date:</strong> <span class="tag is-link is-light">August 19 - 2025</span></p>
+                    <div class="notice">
+                        <p><strong>Nature of Service:</strong> The Bot is a <em>simulation</em> of banking systems and
+                            operations for entertainment/educational purposes. It is not a real bank, does not hold
+                            deposits, and does not process real money.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container narrow content">
+            <h2 id="eligibility">1. Eligibility</h2>
+            <ul>
+                <li>You must be at least <strong>18 years old</strong> to use the Bot independently.</li>
+                <li>Users aged <strong>16–17</strong> may use the Bot <strong>only with parental or legal guardian
+                        consent</strong>.</li>
+                <li>Users <strong>under 16 are not permitted</strong> to use the Bot.</li>
+            </ul>
+
+
+            <h2 id="acceptable-use">2. Acceptable Use</h2>
+            <ul>
+                <li>Do not use the Bot for any illegal purpose or to violate Discord's Terms.</li>
+                <li>Do not exploit, abuse, reverse-engineer, or disrupt the Bot or its infrastructure.</li>
+                <li>Do not present the Bot as a real bank or impersonate real financial institutions.</li>
+            </ul>
+
+
+            <h2 id="accounts-data">3. User Accounts & Data</h2>
+            <ul>
+                <li>Each simulated account is linked to your Discord ID.</li>
+                <li>We may reset, suspend, or delete accounts in cases of abuse, bugs, or ToS violations.</li>
+                <li>Data handling is described in our <a href="privacy.html">Privacy Policy</a>.</li>
+            </ul>
+
+
+            <h2 id="disclaimer">4. Disclaimers</h2>
+            <ul>
+                <li>The Bot is provided <strong>“as is”</strong> without warranties of any kind.</li>
+                <li>We disclaim liability for losses arising from the use or inability to use the Bot.</li>
+                <li>The Bot is for entertainment/educational use only and provides no financial advice.</li>
+            </ul>
+
+
+            <h2 id="termination">5. Termination</h2>
+            <p>We may suspend or terminate access at any time for violations, suspected abuse, or at our discretion to
+                protect the service.</p>
+
+
+            <h2 id="changes">6. Changes to These Terms</h2>
+            <p>We may update these Terms periodically. Continued use of the Bot after changes become effective
+                constitutes acceptance.</p>
+
+
+            <h2 id="contact">7. Contact</h2>
+            <p>Questions or requests? Write us <a href="https://discord.com/channels/1406716538861391934/1407250286333923338">here</a>.</p>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Finex Economy & Discord Bank Simulator Bot</strong> — <a href="/privacy">Privacy Policy</a> · Terms of Use
+            </p>
+            <p class="is-size-7">© <span id="year-tos"></span> Finex Economy. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        document.getElementById('year-tos').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
